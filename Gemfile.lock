@@ -105,9 +105,6 @@ GEM
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.10-x86_64-linux)
-      racc (~> 1.4)
-    pg (1.4.5)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -210,7 +207,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -220,7 +216,6 @@ DEPENDENCIES
   listen (~> 3.2)
   mail (= 2.7.1)
   mysql2 (>= 0.4.4)
-  pg
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
